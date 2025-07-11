@@ -1,12 +1,12 @@
 import React from 'react';
+import Banner from '../Components/Banner';
+import CollegeCards from '../Components/CollegeCards';
 
 const Home = () => {
   return (
     <div>
-      <h1>
-        Welcome to the Home Page!
-        <span className="text-3xl font-bold underline">Hello world!</span>
-      </h1>
+      <Banner />
+      <CollegeCards />
     </div>
   );
 };
