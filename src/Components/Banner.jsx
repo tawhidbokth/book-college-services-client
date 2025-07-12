@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
   return (
     <div>
-      <section className="relative bg-gradient-to-r from-indigo-600 to-indigo-500 text-white py-16 px-6 md:px-12 rounded-xl overflow-hidden shadow-lg">
+      <section className="relative bg-gradient-to-r from-indigo-600 to-indigo-500 text-white py-16 px-6 md:px-12 rounded-xl  overflow-hidden shadow-lg">
         {/* Background decoration - more modern abstract shapes */}
         <div className="absolute top-0 right-0 -mt-16 -mr-16 w-64 h-64 bg-indigo-700 rounded-full opacity-20 pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 -mb-16 -ml-16 w-64 h-64 bg-indigo-700 rounded-full opacity-20 pointer-events-none"></div>
